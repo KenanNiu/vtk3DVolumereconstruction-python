@@ -51,12 +51,10 @@ def numpy2VTKimporter(img,spacing=[1.0,1.0,1.0], origin=[0.0,0.0,0.0]):
 
 
 
-# imagefolderpath = "/home/kenan/Documents/DataRoom/US_calibration/rob_cali"
-# imagefolderpath = "/home/kenan/Documents/DataRoom/US_calibration/img5"
-imagefolderpath ='/home/kenan/Documents/pyDev/bmode3dreconstruction/recon_li/raw_8'
 
-# imagefolderpath = "/home/kenan/Desktop/forearm US reconstruction/6-1-2021/v_img2"
-# imagefolderpath = "/home/kenan/Documents/development/DLcode/DL_images/Bscan_US/image2"
+imagefolderpath ='./imagefolder'
+
+
 
 
 onlyfiles = [f for f in listdir(imagefolderpath) if isfile(join(imagefolderpath, f))]
